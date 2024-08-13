@@ -1,0 +1,10 @@
+name: "purge"
+version: "0.1.0"
+description: "A simple Helm plugin to delete all Charts"
+platformCommand:
+  - os: "darwin"
+    command: "$HELM_PLUGIN_DIR/helm-purge.sh"
+  - os: "linux"
+    command: "$HELM_PLUGIN_DIR/helm-purge.sh"
+hooks:
+  install: "echo \"Thank you for installing the Helm purge plugin! Plugin installed in '$HELM_PLUGIN_DIR'\""
