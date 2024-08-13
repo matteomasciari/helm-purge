@@ -2,6 +2,8 @@
 
 **helm-purge** is a Helm plugin that allows you to quickly delete all Helm releases in a specified namespace. It is particularly useful for cleaning up and resetting development or testing environments.
 
+This repository was created for the drafting of the Medium article https://medium.com/@MatteoMasciari/helm-plugins-enhancing-kubernetes-application-management-9b5701f30c74
+
 ## Features
 
 - Deletes all Helm releases in the current namespace.
